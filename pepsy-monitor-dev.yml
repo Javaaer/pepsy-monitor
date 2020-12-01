@@ -5,10 +5,10 @@ spring:
     username: admin  #root  发布的时候记得改
     password: admin  #root   发布的时候记得改
 
-filePath: E:\AllCodes\pepsyback\LOGInfo   #日志存放路径
-
 #既然我们的分布式任务是基于zookeeper的,所以我们一定会需要配置zookeeper地址
 regCenter:
   #多个端口地址，逗号分开。如果只有一个zk，server-list少一个s
   server-lists: 192.168.22.131:2181 
   namespace: bk1908ela   #命名空间
+
+filePath: E:\AllCodes\pepsyback\LOGInfo   #日志存放路径
