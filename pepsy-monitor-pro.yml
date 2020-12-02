@@ -12,4 +12,4 @@ regCenter:
   namespace: bk1908ela   #命名空间
   
   
-filePath: /LOGInfo   #日志存放路径
+filePath: /dataDisk/pepsy-program1/LOGInfo   #日志存放路径
