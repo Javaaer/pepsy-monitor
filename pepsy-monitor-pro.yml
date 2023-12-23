@@ -1,9 +1,9 @@
-spring:
-  rabbitmq:
-    host: 42.192.78.13
-    port: 5672
-    username: root  #root  发布的时候记得改
-    password: root  #root   发布的时候记得改
+#spring:
+#  rabbitmq:
+#    host: 42.192.78.13
+#    port: 5672
+#    username: root  #root  发布的时候记得改
+ #   password: root  #root   发布的时候记得改
 
 #既然我们的分布式任务是基于zookeeper的,所以我们一定会需要配置zookeeper地址
 regCenter:
