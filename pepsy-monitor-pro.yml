@@ -6,10 +6,10 @@
  #   password: root  #root   发布的时候记得改
 
 #既然我们的分布式任务是基于zookeeper的,所以我们一定会需要配置zookeeper地址
-regCenter:
+#regCenter:
   #多个端口地址，逗号分开。如果只有一个zk，server-list少一个s
-  server-lists: 42.192.78.13:2181 
-  namespace: bk1908ela   #命名空间
+#  server-lists: 42.192.78.13:2181 
+#  namespace: bk1908ela   #命名空间
   
   
 filePath: /dataDisk/pepsy-program1/LOGInfo   #日志存放路径
